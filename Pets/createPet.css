@@ -1,0 +1,94 @@
+:root{
+  --background-color:  #091A2E;
+  --btn-color : #d19710;
+  --input-background: #3B4859;
+}
+
+.back-btn{
+  margin-bottom: 40px;
+  margin-left: 100px;
+  text-decoration: none;
+  color: #282e09;
+  background: #dddcaf;
+  padding: .6em 1em;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.back-btn:hover{
+  background: #968a6e;
+}
+
+.pet-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--btn-color);
+  
+}
+
+.CreatePet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.1em;
+  background-color: var(--background-color);
+  color: #fff;
+  width: 400px;
+  padding: 2em;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.inputs-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-bottom: 7em;
+}
+
+.input-createPet{
+  display: block;
+  padding: .9em;
+  background: var(--input-background);
+  color: rgb(226, 226, 189);
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+  border: none;
+  
+}
+
+.input-createPet::placeholder{
+  color: rgb(226, 226, 189);
+}
+
+.btn-create{
+  background-color: var(--btn-color);
+  color: #fff;
+  border: none;
+  padding: .6em;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn-create:hover{
+  background: rgba(209, 151, 16,.9);
+}
+
+@media (max-width: 600px) {
+  .CreatePet {
+    width:270px
+  }
+}
+
+.Droper:hover{
+	background-color: gray;
+	font-weight: bold;
+}
